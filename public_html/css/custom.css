@@ -1,0 +1,50 @@
+/* Add custom styles here */
+
+.maps iframe {
+    pointer-events: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/img/photos/DSC_0032.JPG");
+    /* Set a specific height */
+    min-height: 100px;
+    margin-top: -20px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    padding: 10%;
+    text-align: center;
+}
+
+.inphoto {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #000;
+    opacity: 0.65;
+    padding: 10px;
+    font-size: 2.5vw;
+    letter-spacing: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.float {
+    position: fixed;
+    top: 5%;
+    right: 2.5%;
+}
+
+th {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .inphoto {
+        background-color: rgba(248, 248, 248, 0);
+    }
+}
